@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_fee_structure" tools:context="com.example.mani.bus.FeeStructure">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Submit the duly filled application form in the office of the In-charge, Students Transport Facility along
+with photographs(2) to allot the seat and obtain the challan form.\n\n
+2. Pay the fee in the Andhra Bank, Kokapet- CBIT campus Branch through challan. Kindly do not pay the
+fee without submitting the application form.\n\n
+3. Transport fee is Rs.17,000/- for any route/stop for the academic year 2015-16. It is Rs.13,000/- in case
+of final year students.\n\n
+4. In case of demand draft, it should be drawn in favour of “M/S STUDENTS TRANSPORT
+ACCOUNT, CBIT’.\n\n
+5. For NEFT, Account No. 064310011070936, Students Transport Account, CBIT; Bank: Andhra Bank,
+Branch: Kokapet CBIT Campus, IFSC Code: ANDB0000643.\n\n
+6. In case of Payments made through NEFT/D.D./Education Loans, the details should be informed to
+Dr. B. Sreenivasa Reddy, Associate Professor of Physics immediately.\n\n
+7. Identity cards will be issued to the students applied for transportation within 20 days.\n"
+                android:id="@+id/result"
+                android:textSize="20dp"
+                android:textColor="#236026"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

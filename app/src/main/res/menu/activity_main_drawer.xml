@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_help"
+            android:title="Complaint" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Application and Fee Payment"
+            />
+        <item android:id="@+id/inst" android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Instructions To Parents" />
+        <item android:id="@+id/inststu" android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Instructions To Students" />
+        <item android:id="@+id/website" android:icon="@android:drawable/ic_menu_compass"
+            android:title="Goto CBIT Website" />
+
+    </group>
+
+
+
+</menu>

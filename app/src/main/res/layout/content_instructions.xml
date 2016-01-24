@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_instructions" tools:context="com.example.mani.bus.Instructions">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. College reserves the right to modify, merge or cancel any proposed route(s) without assigning
+any reason.\n\n
+2. The seats will be allotted on the first come first serve basis for every academic year through an
+application.\n\n
+3. New routes/buses will be introduced subjected to the number of students and availability of
+buses. Decision of the institute will be final in this regard.\n\n
+4. Request for the extension or diversion of route(s) and additional stops will not be considered for
+the existing buses/routes.\n\n
+5. Transport fee is non-refundable.\n\n
+6. Parents are requested to lodge their suggestions / requests / complaints with the Incharge,
+Students’ Transport or Principal only.\n\n
+"
+                android:id="@+id/result"
+                android:textSize="20dp"
+                android:textColor="#236026"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
